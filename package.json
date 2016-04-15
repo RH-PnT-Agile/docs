@@ -1,0 +1,22 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "This repository is a central hub for Red Hat Agile based documentation.",
+  "main": "index.js",
+  "scripts": {
+    "toc": "node_modules/.bin/doctoc . --title '**Table of Contents**'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RH-PnT-Agile/docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RH-PnT-Agile/docs/issues"
+  },
+  "homepage": "https://github.com/RH-PnT-Agile/docs#readme",
+  "dependencies": {
+    "doctoc": "^1.0.0"
+  }
+}
